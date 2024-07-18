@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#qna dd{
+  display: none;
+}
+
+#qna dt.on + dd{
+  display: block;
+}
+
+#qna dt.on{
+  text-align: center;
+}
